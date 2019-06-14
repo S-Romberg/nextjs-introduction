@@ -1,11 +1,10 @@
-import Layout from '../components/Header'
+import Layout from '../components/Layout'
 
-const Index = () => {
+const Index = (props) => {
   return (
-    <Layout>
-      <h1>Heyyyy its index</h1>
-    </Layout>
+      <h1>Heyyyy its {props.name}</h1>
   )
 }
 
 export default Index
+
