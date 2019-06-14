@@ -1,6 +1,8 @@
 const Index = () => {
   return (
-      <h1>Heyyyy its index</h1>
+    <div>
+      <h1>Heyyyy its contact</h1>
+    </div>
   )
 }
 

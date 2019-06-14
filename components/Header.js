@@ -19,11 +19,6 @@ const Header = () => {
           align-items: center;
         }
      `}</style>
-      <style global jsx>{`
-        body {
-         margin: 0;
-        }
-     `}</style>
     </nav>
   )
 }
